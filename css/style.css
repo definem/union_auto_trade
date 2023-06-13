@@ -8,7 +8,7 @@
 }
 
 .container {
-  max-width: 1636px;
+  max-width: 1791 px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -43,7 +43,6 @@ header .nav__list--item {
 header .nav__list--item-link {
   text-decoration: none;
   text-transform: uppercase;
-  background-color: red;
   display: flex;
   align-items: center;
   width: 100%;
@@ -71,7 +70,8 @@ header .header_text2 {
   color: white;
 }
 header .header_btn {
-  padding: 660px;
+  padding: 300px;
+  right: 90px;
 }
 
 body {

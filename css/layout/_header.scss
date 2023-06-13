@@ -24,7 +24,7 @@ header {
         &-link {
           text-decoration: none;
           text-transform: uppercase;
-          background-color: red;
+          // background-color: red;
           display: flex;
           align-items: center;
           width: 100%;
@@ -60,6 +60,7 @@ header {
   }
 
   .header_btn {
-    padding: 660px;
+    padding: 300px;
+    right: 90px;
   }
 }
