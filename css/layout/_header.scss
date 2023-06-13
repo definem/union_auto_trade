@@ -1,16 +1,16 @@
 header {
   width: 100%;
-  background-color: rgba(112, 110, 110, 0.644);
-  backdrop-filter: blur(30px);
   position: fixed;
   top: 0;
 
   .nav {
     height: 60px;
+    display: flex;
+    align-items: center;
 
     &__logo {
       font-size: 24px;
-      color: rgb(1, 6, 10);
+      // color: rgb(1, 6, 10);
       text-decoration: none;
     }
 
@@ -24,7 +24,10 @@ header {
         &-link {
           text-decoration: none;
           text-transform: uppercase;
-          color: rgb(1, 6, 10);
+          background-color: red;
+          display: flex;
+          align-items: center;
+          width: 100%;
 
           &:hover {
             color: silver;
@@ -32,5 +35,31 @@ header {
         }
       }
     }
+  }
+
+  .header_texts {
+    margin-top: 20%;
+  }
+
+  .header_text1 {
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+  }
+
+  .header_text2 {
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+  }
+
+  .header_btn {
+    padding: 660px;
   }
 }
