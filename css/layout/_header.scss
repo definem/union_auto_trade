@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+  background-color: rgba(112, 110, 110, 0.644);
+  backdrop-filter: blur(30px);
+  position: fixed;
+  top: 0;
+
+  .nav {
+    height: 60px;
+
+    &__logo {
+      font-size: 24px;
+      color: rgb(1, 6, 10);
+      text-decoration: none;
+    }
+
+    &__list {
+      display: flex;
+      column-gap: 8rem;
+
+      &--item {
+        list-style-type: none;
+
+        &-link {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: rgb(1, 6, 10);
+
+          &:hover {
+            color: silver;
+          }
+        }
+      }
+    }
+  }
+}

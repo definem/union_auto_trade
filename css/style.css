@@ -1,0 +1,45 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  width: 100%;
+  background-color: rgba(112, 110, 110, 0.644);
+  backdrop-filter: blur(30px);
+  position: fixed;
+  top: 0;
+}
+header .nav {
+  height: 60px;
+}
+header .nav__logo {
+  font-size: 24px;
+  color: rgb(1, 6, 10);
+  text-decoration: none;
+}
+header .nav__list {
+  display: flex;
+  column-gap: 8rem;
+}
+header .nav__list--item {
+  list-style-type: none;
+}
+header .nav__list--item-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(1, 6, 10);
+}
+header .nav__list--item-link:hover {
+  color: silver;
+}/*# sourceMappingURL=style.css.map */
