@@ -12,13 +12,11 @@ header {
 
     &__logo {
       font-size: 24px;
-      // color: rgb(1, 6, 10);
       text-decoration: none;
     }
 
     &__list {
       display: flex;
-      column-gap: 8rem;
 
       &--item {
         list-style-type: none;
